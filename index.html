@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Canoas Reserve</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0F1115;
+color:#F5F1EA;
+font-family:'Inter',sans-serif;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.55)),
+url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:40px;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-family:'Cormorant Garamond',serif;
+font-size:7rem;
+font-weight:300;
+letter-spacing:8px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.2rem;
+font-weight:300;
+letter-spacing:2px;
+line-height:1.8;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:45px;
+padding:16px 45px;
+border:1px solid #B8B0A3;
+color:#F5F1EA;
+text-decoration:none;
+letter-spacing:3px;
+text-transform:uppercase;
+transition:.4s;
+}
+
+.btn:hover{
+background:#F5F1EA;
+color:#0F1115;
+}
+
+.section{
+padding:120px 12%;
+}
+
+.title{
+font-family:'Cormorant Garamond',serif;
+font-size:4rem;
+font-weight:300;
+margin-bottom:30px;
+}
+
+.description{
+max-width:700px;
+line-height:2;
+color:#B8B0A3;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:40px;
+margin-top:70px;
+}
+
+.card{
+padding:40px;
+border:1px solid rgba(255,255,255,.08);
+background:rgba(255,255,255,.02);
+backdrop-filter:blur(10px);
+}
+
+.card h3{
+font-family:'Cormorant Garamond',serif;
+font-size:2rem;
+margin-bottom:15px;
+font-weight:400;
+}
+
+.card p{
+color:#B8B0A3;
+line-height:1.8;
+}
+
+.quote{
+text-align:center;
+padding:140px 10%;
+background:#14181d;
+}
+
+.quote h2{
+font-family:'Cormorant Garamond',serif;
+font-size:3rem;
+font-weight:300;
+max-width:900px;
+margin:auto;
+line-height:1.5;
+}
+
+.footer{
+padding:60px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.08);
+color:#B8B0A3;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:4rem;
+}
+
+.title{
+font-size:3rem;
+}
+
+.quote h2{
+font-size:2rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>CANOAS RESERVE</h1>
+
+<p>
+El arte de hospedar a quienes están acostumbrados a lo extraordinario.
+</p>
+
+<a href="#" class="btn">
+Solicitar Estancia
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="title">
+Una experiencia privada
+</h2>
+
+<p class="description">
+Diseñado para quienes buscan privacidad, elegancia y atención impecable.
+Cada detalle ha sido pensado para ofrecer una estancia que trasciende el concepto tradicional de hotel.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>Suites Exclusivas</h3>
+<p>
+Espacios diseñados para el descanso absoluto con vistas privilegiadas y acabados excepcionales.
+</p>
+</div>
+
+<div class="card">
+<h3>Gastronomía Selecta</h3>
+<p>
+Experiencias culinarias creadas para satisfacer los gustos más exigentes.
+</p>
+</div>
+
+<div class="card">
+<h3>Atención Personal</h3>
+<p>
+Servicio discreto, profesional y completamente enfocado en cada huésped.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="quote">
+
+<h2>
+“La verdadera exclusividad rara vez busca llamar la atención.”
+</h2>
+
+</section>
+
+<footer class="footer">
+
+CANOAS RESERVE © 2026
+
+</footer>
+
+</body>
+</html>
